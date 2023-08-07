@@ -97,9 +97,9 @@ function dispalyGreetings(today){
         hrs = today.getHours();
         name=""
         if (hrs < 12)
-            greet = '"Rise and shine, sleepyhead, the sun's already in your eyes!" ...Haha, don't tell me you actually thought I'd wake you up like that? - Wanderer   '+name;
+            greet = 'Morning :)  '+name;
         else if (hrs >= 12 && hrs <= 17)
-            greet = 'I have no need for food. Save me the trouble and take care of yourself and that small thing floating next to you. - Wanderer '+name;
+            greet = 'Good Afternoon! '+name;
         else if (hrs >= 17 && hrs <= 24)
             greet = 'Finally, another boring day is drawing to a close. - Wanderer  '+name;
         document.getElementById('greet').innerHTML = greet;
